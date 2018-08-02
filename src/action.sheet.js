@@ -89,7 +89,7 @@ export default class ActionSheet extends React.Component {
           }
           <View>
             <TouchableHighlight
-              style={[styles.cancel, Display.isIPhoneX() == true ? {height: 92} : {height: 58}]}
+              style={[styles.cancel, Display.isIPhoneX() == true ? { height: 92 } : { height: 58 }]}
               onPressOut={() => { cancelHandler() }}
               underlayColor="#EFEDE7"
             >
@@ -108,7 +108,7 @@ export default class ActionSheet extends React.Component {
         text={result.text}
         type={result.type}
         handler={result.handler}
-        index={index}/>
+        index={index} />
     )
   }
 }
