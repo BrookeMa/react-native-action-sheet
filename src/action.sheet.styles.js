@@ -18,7 +18,6 @@ export const styles = {
     textAlign: 'center',
   },
   cancel: {
-    height: 58,
     width: "100%",
     borderTopWidth: 8,
     paddingTop: 17,
@@ -29,5 +28,9 @@ export const styles = {
   cancelText: {
     fontSize: 17,
     color: "#333333",
+  },
+  safeArea: {
+    height:34,
+    backgroundColor: '#FFF',
   }
 }

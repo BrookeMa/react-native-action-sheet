@@ -11,6 +11,7 @@ import {
 import { styles } from "./action.sheet.styles"
 import Item from "./action.item"
 import PropTypes from 'prop-types';
+import Display from "./display"
 
 const { height, width } = Dimensions.get('window')
 
@@ -88,7 +89,7 @@ export default class ActionSheet extends React.Component {
           }
           <View>
             <TouchableHighlight
-              style={styles.cancel}
+              style={[styles.cancel, Display.isIPhoneX() == true ? {height: 92} : {height: 58}]}
               onPressOut={() => { cancelHandler() }}
               underlayColor="#EFEDE7"
             >
