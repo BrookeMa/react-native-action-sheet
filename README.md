@@ -23,7 +23,7 @@ export default class Example extends React.Component {
       title: "是否保存图片",
       items: [
         { text: "Done", type: "Normal", handler: this.itemButtonClick },
-        { text: "Save", type: "HightLight", handler: this.doneButtonClick },
+        { text: "Save", type: "HighLight", handler: this.doneButtonClick },
         { text: "Cancel", type: "Disabled", handler: this.itemButtonClick }
       ],
       cancel: "取消",

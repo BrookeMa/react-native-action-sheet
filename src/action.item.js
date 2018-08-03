@@ -23,7 +23,7 @@ export default class ActionItem extends React.Component {
     const that = this
     const { text, type, handler } = this.props
     var color = "#333333"
-    if (type == "HightLight") {
+    if (type == "HighLight") {
       color = "#E76153"
     }
     if (type == "Disabled") {
